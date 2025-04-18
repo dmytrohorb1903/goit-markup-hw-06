@@ -158,7 +158,9 @@
              <h2 class="team-title">Our Team</h2>
              <ul class="team-list">
     <li class="team-item">
-        <img class="team-img" src="./images/1.jpg" alt="Mark Guerrero" width="264" height="260">
+        <img class="team-img" 
+        srcset="./images/team-1.jpg 1x, ./images/team-1-2x.jpg 2x"
+        src="./images/team-1.jpg" alt="Mark Guerrero" width="264" height="260">
         <div class="team-bottom">
             <h3 class="team-subtitle">Mark Guerrero</h3>
             <p class="team-text">Product Designer</p>
@@ -188,7 +190,9 @@
     </li>
 
     <li class="team-item">
-        <img class="team-img" src="./images/2.jpg" alt="Tom Ford" width="264" height="260">
+        <img class="team-img" 
+        srcset="./images/team-2.jpg 1x, ./images/team-2-2x.jpg 2x"
+        src="./images/team-2.jpg" alt="Tom Ford" width="264" height="260">
         <div class="team-bottom">
             <h3 class="team-subtitle">Tom Ford</h3>
             <p class="team-text">Frontend Developer</p>
@@ -218,7 +222,8 @@
     </li>
 
     <li class="team-item">
-        <img class="team-img" src="./images/3.jpg" alt="Camila Garcia" width="264" height="260">
+        <img class="team-img" srcset="./images/team-3.jpg 1x, ./images/team-3-2x.jpg 2x"
+        src="./images/team-3.jpg" alt="Camila Garcia" width="264" height="260">
         <div class="team-bottom">
             <h3 class="team-subtitle">Camila Garcia</h3>
             <p class="team-text">Marketing</p>
@@ -248,7 +253,8 @@
     </li>
 
     <li class="team-item">
-        <img class="team-img" src="./images/4.jpg" alt="Daniel Wilson" width="264" height="260">
+        <img class="team-img" srcset="./images/team-4.jpg 1x, ./images/team-4-2x.jpg 2x"
+        src="./images/team-4.jpg" alt="Daniel Wilson" width="264" height="260">
         <div class="team-bottom">
             <h3 class="team-subtitle">Daniel Wilson</h3>
             <p class="team-text">UI Designer</p>
@@ -286,7 +292,13 @@
          <ul class="portfolio-list">
              <li class="portfolio-item"> 
                <div class="portfolio-hover-wrap">
-                 <img class="portfolio-item-img" src="./images/port1.jpg" alt="Banking App" width="360" height="300">
+                 <picture>
+            <source srcset="./images/port-desk-1.jpg 1x, ./images/port-desk-1-2x.jpg 2x" media="(min-width:1158px)">
+            <source srcset="./images/port-tab-1.jpg 1x, ./images/port-tab-1-2x.jpg 2x" media="(min-width:768px)">
+            <source srcset="./images/port-mob-1.jpg 1x, ./images/port-mob-1-2x.jpg 2x" media="(max-width:767px)">
+            <img class="portfolio-item-img" src="./images/port-desk-1.jpg" alt="Banking App" width="360">
+        </picture>
+                 
                   <p class="portfolio-hover-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                </div>
                 <div class="portfolio-bottom">
@@ -296,7 +308,12 @@
              </li>
              <li class="portfolio-item">
                 <div class="portfolio-hover-wrap">
-                     <img class="portfolio-item-img" src="./images/port2.jpg" alt="Cashless Payment" width="360" height="300">
+                      <picture>
+            <source srcset="./images/port-desk-2.jpg 1x, ./images/port-desk-2-2x.jpg 2x" media="(min-width:1158px)">
+            <source srcset="./images/port-tab-2.jpg 1x, ./images/port-tab-2-2x.jpg 2x" media="(min-width:768px)">
+            <source srcset="./images/port-mob-2.jpg 1x, ./images/port-mob-2-2x.jpg 2x" media="(max-width:767px)">
+            <img class="portfolio-item-img" src="./images/port-desk-2.jpg" alt="Cashless Payment" width="360">
+        </picture>
                      <p class="portfolio-hover-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div>
                  <div class="portfolio-bottom">
@@ -306,7 +323,12 @@
              </li>
              <li class="portfolio-item">
                  <div class="portfolio-hover-wrap">
-                    <img class="portfolio-item-img" src="./images/port3.jpg" alt="Meditation App" width="360" height="300">
+        <picture>
+            <source srcset="./images/port-desk-3.jpg 1x, ./images/port-desk-3-2x.jpg 2x" media="(min-width:1158px)">
+            <source srcset="./images/port-tab-3.jpg 1x, ./images/port-tab-3-2x.jpg 2x" media="(min-width:768px)">
+            <source srcset="./images/port-mob-3.jpg 1x, ./images/port-mob-3-2x.jpg 2x" media="(max-width:767px)">
+            <img class="portfolio-item-img" src="./images/port-desk-3.jpg" alt="Meditation App" width="360">
+        </picture>
                     <p class="portfolio-hover-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                  </div>
                  <div class="portfolio-bottom">
@@ -316,7 +338,13 @@
              </li>
              <li class="portfolio-item">
                  <div class="portfolio-hover-wrap">
-                    <img class="portfolio-item-img" src="./images/port4.jpg" alt="Taxi Service" width="360" height="300">
+        <picture>
+            <source srcset="./images/port-desk-4.jpg 1x, ./images/port-desk-4-2x.jpg 2x" media="(min-width:1158px)">
+            <source srcset="./images/port-tab-4.jpg 1x, ./images/port-tab-4-2x.jpg 2x" media="(min-width:768px)">
+            <source srcset="./images/port-mob-4.jpg 1x, ./images/port-mob-4-2x.jpg 2x" media="(max-width:767px)">
+            <img class="portfolio-item-img" src="./images/port-desk-4.jpg" alt="Taxi Service" width="360">
+        </picture>
+
                    <p class="portfolio-hover-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                  </div>
                  <div class="portfolio-bottom">
@@ -327,7 +355,12 @@
              <li class="portfolio-item">
                  
                    <div class="portfolio-hover-wrap">
-                     <img class="portfolio-item-img" src="./images/port5.jpg" alt="Screen Illustrations" width="360" height="300">
+        <picture>
+            <source srcset="./images/port-desk-5.jpg 1x, ./images/port-desk-5-2x.jpg 2x" media="(min-width:1158px)">
+            <source srcset="./images/port-tab-5.jpg 1x, ./images/port-tab-5-2x.jpg 2x" media="(min-width:768px)">
+            <source srcset="./images/port-mob-5.jpg 1x, ./images/port-mob-5-2x.jpg 2x" media="(max-width:767px)">
+            <img class="portfolio-item-img" src="./images/port-desk-5.jpg" alt="Screen Illustrations" width="360">
+        </picture>
                     <p class="portfolio-hover-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                    </div>
                  <div class="portfolio-bottom">
@@ -337,7 +370,12 @@
              </li>
              <li class="portfolio-item">
                  <div class="portfolio-hover-wrap">
-                    <img class="portfolio-item-img" src="./images/port6.jpg" alt="Online Courses" width="360" height="300">
+        <picture>
+            <source srcset="./images/port-desk-6.jpg 1x, ./images/port-desk-6-2x.jpg 2x" media="(min-width:1158px)">
+            <source srcset="./images/port-tab-6.jpg 1x, ./images/port-tab-6-2x.jpg 2x" media="(min-width:768px)">
+            <source srcset="./images/port-mob-6.jpg 1x, ./images/port-mob-6-2x.jpg 2x" media="(max-width:767px)">
+            <img class="portfolio-item-img" src="./images/port-desk-6.jpg" alt="Online Courses" width="360">
+        </picture>
                     <p class="portfolio-hover-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                  </div>
                  <div class="portfolio-bottom">
